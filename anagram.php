@@ -10,8 +10,9 @@
 error_reporting(E_ALL);
 require_once "anagram_functions.php";
 $nl = "\n";
+$words = array();
 
-$input = "pinkish";
+$input = "silent";
 try {
     $words = file('wordlist.txt', FILE_SKIP_EMPTY_LINES);
 }
