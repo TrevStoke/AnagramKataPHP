@@ -1,7 +1,7 @@
 <?php
 /**
  * Created by JetBrains PhpStorm.
- * User: trevoradams
+ * User: Trevor Adams
  * Date: 03/09/2012
  * Time: 16:50
  * To change this template use File | Settings | File Templates.
@@ -13,6 +13,7 @@ $nl = "\n";
 $words = array();
 
 $input = "silent";
+
 try {
     $words = file('wordlist.txt', FILE_SKIP_EMPTY_LINES);
 }
